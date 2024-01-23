@@ -32,7 +32,7 @@ git aa alias.dv 'difftool -t vimdiff -y'<br>
 git aa alias.gl 'config --global -l'<br>
 git aa alias.s '!git rev-list --all | xargs git grep -F'<br>
 git aa alias.us 'reset HEAD --'<br>
-git aa alias.rs 'restore --staged'
+git aa alias.rs 'restore --staged'<br>
 git aa alias.cc 'rev-list --count'<br>
 git aa alias.clean 'gc --prune=now --aggressive'<br>
 git aa help.autocorrect 20<br>
