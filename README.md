@@ -14,6 +14,7 @@ git aa alias.dtl 'tag -d'<br>
 git aa alias.dtr 'push origin --delete'<br>
 git aa alias.po 'push origin'<br>
 git aa alias.a add<br>
+git aa alias.al 'add .'<br>
 git aa alias.cl clone<br>
 git aa alias.co checkout<br>
 git aa alias.cb 'checkout -b'<br>
