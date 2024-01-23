@@ -32,4 +32,5 @@ git aa alias.s '!git rev-list --all | xargs git grep -F'<br>
 git aa alias.us 'reset HEAD --'<br>
 git aa alias.cc 'rev-list --count'<br>
 git aa alias.clean 'gc --prune=now --aggressive'<br>
-git aa help.autocorrect 20
+git aa help.autocorrect 20<br>
+git gl
