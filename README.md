@@ -1,5 +1,5 @@
 # git-alias
-Adding different aliases for reference here
+Adding different useful aliases for reference here
 
 -----------------------------------------
 git config --global alias.aa 'config --global'<br>
