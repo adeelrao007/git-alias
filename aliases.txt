@@ -1,0 +1,32 @@
+git config --global alias.aa 'config --global'
+git config --global alias.ra 'config --global --unset'
+git config --global alias.u 'config --global user.name'
+git aa alias.e 'config --global user.email'
+git aa alias.t 'tag -l'
+git aa alias.stg show
+git aa alias.ct 'tag -a'
+git aa alias.pt 'push origin --tags'
+git aa alias.dtl 'tag -d'
+git aa alias.dtr 'push origin --delete'
+git aa alias.po 'push origin'
+git aa alias.a add
+git aa alias.cl clone
+git aa alias.co checkout
+git aa alias.cb 'checkout -b'
+git aa alias.br branch
+git aa alias.ci 'commit -a -m'
+git aa alias.st 'status -sb'
+git aa alias.p push
+git aa alias.pl pull
+git aa alias.l 'log --oneline'
+git aa alias.last 'log -1 HEAD --stat'
+git aa alias.rv 'remote -v'
+git aa alias.d 'diff'
+git aa alias.dv 'difftool -t vimdiff -y'
+git aa alias.gl 'config --global -l'
+git aa alias.s '!git rev-list --all | xargs git grep -F'
+git aa alias.us 'reset HEAD --'
+git aa alias.cc 'rev-list --count'
+git aa alias.clean 'gc --prune=now --aggressive'
+git aa help.autocorrect 20
+git gl
