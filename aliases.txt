@@ -16,6 +16,7 @@ git aa alias.co checkout
 git aa alias.cb 'checkout -b'
 git aa alias.br branch
 git aa alias.ci 'commit -a -m'
+git aa alias.ca 'commit --amend'
 git aa alias.st 'status -sb'
 git aa alias.p push
 git aa alias.pl pull
@@ -27,6 +28,7 @@ git aa alias.dv 'difftool -t vimdiff -y'
 git aa alias.gl 'config --global -l'
 git aa alias.s '!git rev-list --all | xargs git grep -F'
 git aa alias.us 'reset HEAD --'
+git aa alias.rs 'restore --staged'
 git aa alias.cc 'rev-list --count'
 git aa alias.clean 'gc --prune=now --aggressive'
 git aa help.autocorrect 20

@@ -19,7 +19,8 @@ git aa alias.cl clone<br>
 git aa alias.co checkout<br>
 git aa alias.cb 'checkout -b'<br>
 git aa alias.br branch<br>
-git aa alias.ci 'commit -a -m' // add all with commit message<br>
+git aa alias.ci 'commit -a -m'<br>
+git aa alias.ca 'commit --amend'<br>
 git aa alias.st 'status -sb'<br>
 git aa alias.p push<br>
 git aa alias.pl pull<br>
@@ -31,6 +32,7 @@ git aa alias.dv 'difftool -t vimdiff -y'<br>
 git aa alias.gl 'config --global -l'<br>
 git aa alias.s '!git rev-list --all | xargs git grep -F'<br>
 git aa alias.us 'reset HEAD --'<br>
+git aa alias.rs 'restore --staged'
 git aa alias.cc 'rev-list --count'<br>
 git aa alias.clean 'gc --prune=now --aggressive'<br>
 git aa help.autocorrect 20<br>
