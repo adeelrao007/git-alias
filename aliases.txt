@@ -19,6 +19,7 @@ git aa alias.ci 'commit -a -m'
 git aa alias.ca 'commit --amend'
 git aa alias.st 'status -sb'
 git aa alias.p push
+git aa alias.po 'push --set-upstream origin'
 git aa alias.pl pull
 git aa alias.l 'log --oneline'
 git aa alias.last 'log -1 HEAD --stat'
