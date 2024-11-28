@@ -1,0 +1,36 @@
+sudo git config --global alias.aa 'config --global'
+sudo git config --global alias.ra 'config --global --unset'
+sudo git config --global alias.u 'config --global user.name'
+sudo git aa alias.e 'config --global user.email'
+sudo git aa alias.t 'tag -l'
+sudo git aa alias.stg show
+sudo git aa alias.ct 'tag -a'
+sudo git aa alias.pt 'push origin --tags'
+sudo git aa alias.dtl 'tag -d'
+sudo git aa alias.dtr 'push origin --delete'
+sudo git aa alias.po 'push origin'
+sudo git aa alias.a add
+sudo git aa alias.al 'add .'
+sudo git aa alias.cl clone
+sudo git aa alias.co checkout
+sudo git aa alias.cb 'checkout -b'
+sudo git aa alias.br branch
+sudo git aa alias.ci 'commit -a -m'
+sudo git aa alias.ca 'commit --amend'
+sudo git aa alias.st 'status -sb'
+sudo git aa alias.p push
+sudo git aa alias.po 'push --set-upstream origin'
+sudo git aa alias.pl pull
+sudo git aa alias.l 'log --oneline'
+sudo git aa alias.last 'log -1 HEAD --stat'
+sudo git aa alias.rv 'remote -v'
+sudo git aa alias.d 'diff'
+sudo git aa alias.dv 'difftool -t vimdiff -y'
+sudo git aa alias.gl 'config --global -l'
+sudo git aa alias.s '!git rev-list --all | xargs git grep -F'
+sudo git aa alias.us 'reset HEAD --'
+sudo git aa alias.rs 'restore --staged'
+sudo git aa alias.cc 'rev-list --count'
+sudo git aa alias.clean 'gc --prune=now --aggressive'
+sudo git aa help.autocorrect 20
+sudo git gl
