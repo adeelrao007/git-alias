@@ -1,0 +1,22 @@
+rebase/change author for wrong commits
+
+
+Changing the Username of Multiple Past Commits:
+Start an interactive rebase.
+Code
+
+    git rebase -i <commit-id>^
+Replace <commit-id> with the hash of the commit before the first commit you want to change. The ^ indicates the parent of that commit. Edit the rebase instructions. 
+In the text editor that opens, change pick to edit for each commit whose author you want to change. Save and close the editor. Amend each commit. 
+Git will stop at each commit marked for edit. For each one, run:
+Code
+
+    git commit --amend --author="New Author Name <new.author@example.com>" --no-edit
+The --no-edit flag prevents Git from opening the commit message editor again. Continue the rebase.
+Code
+
+    git rebase --continue
+Repeat steps 3 and 4 until all desired commits have been amended. Force push the changes.
+Code
+
+    git push --force-with-lease
